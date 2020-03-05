@@ -1,0 +1,27 @@
+﻿  calculator.c
+C:\Users\엄세환\source\repos\dimensionarray\calculator.c(8,11): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\엄세환\source\repos\dimensionarray\calculator.c(9,10): warning C4013: 'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\엄세환\source\repos\dimensionarray\calculator.c(19,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\엄세환\source\repos\dimensionarray\calculator.c(59,56): warning C4047: 'return': 'double **'의 간접 참조 수준이 'double *'과(와) 다릅니다.
+C:\Users\엄세환\source\repos\dimensionarray\calculator.c(60,48): warning C4047: 'return': 'double **'의 간접 참조 수준이 'double *'과(와) 다릅니다.
+  Darray.c
+  input.c
+C:\Users\엄세환\source\repos\dimensionarray\input.c(31,30): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  iomat.c
+  matcal.c
+C:\Users\엄세환\source\repos\dimensionarray\matcal.c(83,43): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  matlib.c
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(15,22): warning C4133: '=': 'char **'과(와) 'double **' 사이의 형식이 호환되지 않습니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(21,23): warning C4133: '=': 'short **'과(와) 'double **' 사이의 형식이 호환되지 않습니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(32,23): warning C4133: '=': 'float **'과(와) 'double **' 사이의 형식이 호환되지 않습니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(34,23): warning C4013: '_msize'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(40,24): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(43,22): warning C4013: 'calloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(43,41): warning C4047: '=': 'double *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\엄세환\source\repos\dimensionarray\matlib.c(40,1): warning C4047: '초기화 중': 'double **'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  코드를 생성하고 있습니다...
+C:\Users\엄세환\source\repos\dimensionarray\matcal.c(85): warning C4172: 지역 변수 또는 임시: rt의 주소를 반환하고 있습니다.
+C:\Users\엄세환\source\repos\dimensionarray\matcal.c(212): warning C4172: 지역 변수 또는 임시: Det의 주소를 반환하고 있습니다.
+C:\Users\엄세환\source\repos\dimensionarray\calculator.c(81): warning C4715: 'calc': 모든 제어 경로에서 값을 반환하지는 않습니다.
+calculator.obj : error LNK2019: _scanf 외부 기호(참조 위치: _calc 함수)에서 확인하지 못했습니다.
+C:\Users\엄세환\source\repos\dimensionarray\Debug\dimensionarray.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
